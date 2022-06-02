@@ -1,5 +1,17 @@
 # 1. My Docker Dev Environment
 
+## 1.1. Issues
+
+### 1.1.1. cmake changes
+
+If you have made any changes, it is a good idea to delete the `/build` folder using the command line. Just note, that `.vscode/settings.json` hides the `/build` folder in the file explorer in vscode.
+
+### 1.1.2. Terminal issues inside the docker environment
+
+Sometimes, Docker may not recognise your ssh keys or git identity outside the docker environment.
+
+My solution is to use an external terminal to commit code/clone etc.
+
 # 2. Install Docker
 
 - Install docker for your operating system.
