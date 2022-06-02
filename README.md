@@ -1,5 +1,7 @@
 # 1. My Docker Dev Environment
 
+Tested on WSL2 Ubuntu & M1 MacBook Pro using the exact config files in `.devcontainer`.
+
 ## 1.1. Issues
 
 ### 1.1.1. cmake changes
